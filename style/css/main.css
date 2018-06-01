@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    overflow: hidden;
+
+}
+
+#banner{
+    width: 100vw;
+    height: calc(100vw * 9 / 40);
+    
+    background: url("../../image/banner.jpg");
+    background-position: 0em -1em;
+    background-size: 110%;
+    position: relative;
+
+    
+    
+
+}
+
+#banner .banner_title {
+    position: absolute;
+    font-family: title;
+    font-size: 2.4em;
+    bottom: 6%;
+    left: 3.2%;
+    width: 50vw;
+    
+}
+#banner #banner_title {    
+    background: linear-gradient(178deg, rgba(255, 235, 235, 0.75)5%, rgb(255, 225, 225)10%, rgb(226, 37, 20)60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#banner #banner_title_back {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 2px 2px 9px rgba(255, 255, 255, 0.4);
+}
