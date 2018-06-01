@@ -51,7 +51,7 @@
         z-index: 1;
         width: 6px;
         border-radius: 3px;
-        background: #333;
+        background: #f00;
         opacity: 0;
         transition: .1s opacity .4s linear;
         pointer-events: auto;
@@ -63,7 +63,7 @@
     .baron._scrolling .baron__bar {
         transition-duration: 0s;
         transition-delay: 0s;
-        opacity: .5;
+        opacity: .6;
         }
 
 /* Windows XP */
@@ -80,7 +80,8 @@
     width: 15px;
     overflow: hidden;
     background-image: linear-gradient(to right, #f2f1ec, #fdfef9);
-    border: 1px solid #ecede5;
+    background: url('data:image/png;base64,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');
+    border: 1px solid #5e5f5b;
     }
 .baron._winxp._scrollbar .baron__track {
     opacity: 1;
@@ -90,16 +91,14 @@
     }
     .baron._winxp .baron__control,
     .baron._winxp .baron__bar {
-        border: 1px solid #f3ffff;
-        box-shadow:
-            1px 1px 1px #b7caf5 inset,
-            1px 1px 1px #7b9fd3;
+        border: 1px solid #2b2929;
+        box-shadow: 1px 1px 1px #2f2f2f inset, 1px 1px 1px #6d6d6d;
         border-radius: 3px;
-        background-image: linear-gradient(to right, #c9d7fc, #baccf4);
+        background-image: linear-gradient(to right, #888888, #040404);
         text-align: center;
         font-size: 8px;
         line-height: 14px;
-        color: #4e6287;
+        color: #ffffff;
         cursor: default;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -109,7 +108,7 @@
         }
     .baron._winxp .baron__control:hover,
     .baron._winxp .baron__bar:hover {
-        background-image: linear-gradient(to right, #d9e7ff, #cadcff);
+        background-image: linear-gradient(to right, #000000, #575757);
     }
     .baron._winxp .baron__up,
     .baron._winxp .baron__down {
@@ -137,17 +136,15 @@
         z-index: 1;
         width: 15px;
         box-sizing: border-box;
-        border: 1px solid #f3ffff;
-        box-shadow:
-            1px 1px 1px #b7caf5 inset,
-            1px 1px 1px #7b9fd3;
+        border: 1px solid #a3a3a3;
+        box-shadow: 1px 1px 1px #1b1b1b inset, 1px 1px 1px #323232;
         border-radius: 3px;
-        background-image: linear-gradient(to right, #c9d7fc, #baccf4);
+        background-image: linear-gradient(to right, #231c1c, #323232);
         opacity: 1;
         -webkit-transition: opacity .2s ease-in;
         transition: opacity .2s ease-in;
         pointer-events: auto;
-        }
+    }
         .baron._winxp .baron__bar:before {
             content: '';
             position: absolute;
@@ -156,17 +153,7 @@
             width: 6px;
             height: 7px;
             z-index: 1;
-            background-image: linear-gradient(
-                    to bottom,
-                    #f0f4ff 0px, #f0f4ff 1px,
-                    rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0) 2px,
-                    #f0f4ff 2px, #f0f4ff 3px,
-                    rgba(255, 255, 255, 0) 3px, rgba(255, 255, 255, 0) 4px,
-                    #f0f4ff 4px, #f0f4ff 5px,
-                    rgba(255, 255, 255, 0) 5px, rgba(255, 255, 255, 0) 6px,
-                    #f0f4ff 6px, #f0f4ff 7px,
-                    rgba(255, 255, 255, 0) 7px, rgba(255, 255, 255, 0) 8px
-                );
+            background-image: linear-gradient(to right, #383808, #706750);
             }
         .baron._winxp .baron__bar:after {
             content: '';
@@ -175,21 +162,11 @@
             left: 4px;
             width: 6px;
             height: 7px;
-            background-image: linear-gradient(
-                    to bottom,
-                    #8aaff6 0px, #8aaff6 1px,
-                    rgba(138, 175, 246, 0) 1px, rgba(138, 175, 246, 0) 2px,
-                    #8aaff6 2px, #8aaff6 3px,
-                    rgba(138, 175, 246, 0) 3px, rgba(138, 175, 246, 0) 4px,
-                    #8aaff6 4px, #8aaff6 5px,
-                    rgba(138, 175, 246, 0) 5px, rgba(138, 175, 246, 0) 6px,
-                    #8aaff6 6px, #8aaff6 7px,
-                    rgba(138, 175, 246, 0) 7px, rgba(138, 175, 246, 0) 8px
-                );
+            background-image: linear-gradient(to right, #080808, #505050);
             }
     .baron._winxp._dragging .baron__bar,
     .baron._winxp .baron__bar:hover {
-        background-image: linear-gradient(to right, #d9e7ff, #cadcff);
+        background-image: linear-gradient(to right, #080808, #505050);
         }
 
 /* Ubuntu */
