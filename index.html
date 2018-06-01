@@ -4,48 +4,114 @@
     <meta charset="utf-8" />
     <title>02與他們的產地</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style/css/subtitle_animation.css" />
     <link rel="stylesheet" type="text/css" href="style/css/main.css" />
     <link rel="stylesheet" type="text/css" href="style/css/font.css" />
+    <link rel="stylesheet" href="AudioPlayer/css/audioplayer.css" />
+    <link rel="stylesheet" type="text/css" href="./libary/js/baron/baron.css" />
+   
     <script src="libary/js/jquery.min.js"></script>
+    <script src="AudioPlayer/js/audioplayer.min.js"></script>
+    <script src="./libary/js/baron/baron.js"></script>
+    <script src="./script/main.js"></script>
 </head>
-<body>
+<body lang="zh-hans"  class="baron baron__root baron__clipper _winxp">
     <div id="wrapper">
-        <header id="header">
+        <div class="baron baron__root baron__clipper _winxp">
+            <header id="header">
 
-            <div id="banner">
-                
-                <div id="banner_title_back" class="banner_title">
-                    <h1>02與他們的產地</h1>                
-                </div>
-                
-
-                <div id="banner_title" class="banner_title">
-                    <h1>02與他們的產地</h1>
-                </div>
-
-
-                <nav>
-                    <div data-href="" class="menu-item-wrapper">
-                        <a>關於</a>
-                        <a class="cover">關於</a>
+                <div id="banner">
+                    
+                    <div id="banner_title_back" class="banner_title">
+                        <h1>02與他們的產地</h1>                
                     </div>
+                    
 
-                    <div data-href="" class="menu-item-wrapper">
+                    <div id="banner_title" class="banner_title">
+                        <h1>02與他們的產地</h1>
+                    </div>
+                    
+
+
+                    <nav>
+                        <div data-href="about" class="menu-item-wrapper">
                             <a>關於</a>
                             <a class="cover">關於</a>
                         </div>
-                </nav>
-            </div>
 
-            
+                        <div data-href="donate" class="menu-item-wrapper">
+                                <a>關於</a>
+                                <a class="cover">支持我們</a>
+                            </div>
+                    </nav>
+                </div>
 
-        </header>
+                
 
-        <article>
+            </header>
 
-        </article>
-    
+            <article>
+                <table>
+                    <tr>
+                        <td><div class="subtitle">
+                        我們沒有天空。<br />
+                    　　    　　她沒有翅膀。
+                        </div></td>
+                        <td><div class="subtitle">
+                            ちには空がなかった。<br>
+                            　　　　彼女には翼がなかった。
+                        </div></td>
+                    </tr>
+                </table>  <br><br><br>
+                <div id="main_content">
+                        <h3>Kiss of Death</h3>
+                        <div id="opening_wrapper">
+                            　　　　<audio preload="auto" id="opening" controls>
+                                <source src="./audio/kiss_of_death.mp3">
+                            </audio>
+                        </div>
+                        <br><br><br>
+
+                        <div>
+                            <h3 id="about">關於</h3>
+                            <table>
+                                <tr>
+                                    <td><img src="image/zerotwo.png" /> 　　　　</td>
+                                    <td>
+                                        <p>
+                                        CODE:002「Zero Two」（02）<br>
+                                        CV：戶松遙                 <br>
+                                        長有紅色的角的神秘少女。    <br>
+                                        擁有「隊友殺手」別名的精英駕駛員。
+                                        </p>
+                                    </td>
+                                
+                                </tr>
+
+                            </table>
+                        
+                            
+                        </div>
+                        <div>
+                            <h3 id="donate">贊助</h3>
+                            <p>
+                                經費都花在橫幅上面了，所以沒什麼內容。<br>
+                                歡迎點擊以下圖片，或掃描二維碼以支持我們。<br><br><br>
+                                <a href="https://core.spgateway.com/EPG/ray_another_world/UZaWcy">
+                                    <img src="image/donate.png" width="25%">
+                                </a>　　　
+                                <img width="25%" src="image/qrcode.png" />
+
+                            </p>
+                        </div>
+                    
+
+                    </div>
+            </article>
+        
+        </div>
     </div>
+    <div class="main__bar"></div>
     
 </body>
 </html>

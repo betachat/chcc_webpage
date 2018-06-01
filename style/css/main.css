@@ -2,9 +2,14 @@
 body {
     margin: 0;
     overflow: hidden;
+    font-family: "微軟正黑體";
 
 }
-
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
 #banner{
     width: 100vw;
     height: calc(100vw * 9 / 35 + 20px);
@@ -25,7 +30,7 @@ body {
     font-size: 2.4em;
     bottom: calc(4%);
     left: 3.2%;
-    width: 50vw;
+    width: 100vw;
     
 }
 #banner #banner_title {    
@@ -101,4 +106,28 @@ body {
 }
 #banner nav a.cover:hover {
     opacity: 1;
+}
+article table {
+    margin: auto;
+}
+.subtitle {
+    color: #fff;
+    text-shadow: 1px 1px 0 red, -1px -1px 0 blue;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;    
+    margin: auto;
+    animation: subtitle 1.6s linear 0s infinite normal;
+}
+#main_content {
+    max-width: 70em;
+    margin: 2em auto;
+}
+#opening_wrapper {
+    max-width: 30em;
+    padding-left: 2em;
+}
+
+#main_content div>p, #main_content div>table{
+    margin-left: 2em;
 }

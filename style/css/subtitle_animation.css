@@ -1,0 +1,12 @@
+@keyframes subtitle{
+    from{
+        text-shadow: 1px 1px 0 red, -1px -1px 0 blue;
+    }
+    100% {
+        text-shadow: 1.2px 1.2px 0 red, -1.2px -1.2px 0 blue;
+    }
+    /*to {
+        text-shadow: 1px 1px 3px red, 1px 1px 4px blue;
+    }*/
+   
+}
