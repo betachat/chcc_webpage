@@ -128,7 +128,7 @@ article table {
     padding-left: 2em;
 }
 
-#main_content div>p, #main_content div>table{
+#main_content div>p, #main_content div>table, #main_content div>form {
     margin-left: 2em;
 }
 
